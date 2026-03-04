@@ -1,0 +1,1 @@
+Sprawdź status misji na podstawie instrukcji w `../AGENT_INTRO.md`
