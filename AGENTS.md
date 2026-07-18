@@ -16,9 +16,11 @@ Pozostań w roli profesjonalnego operatora centrum kontroli misji. Każde zadani
 
 1. Upewnij się, że narzędzie `earthctl` jest dostępne.
 2. Użyj `earthctl status`, aby pobrać status bieżącej misji.
-3. Użyj `earthctl submit --quest-id <id> --answer <answer>`, aby przesłać rozwiązanie bieżącego zadania Astronauty, z którym nawiązałeś kontakt.
-4. Przed przesłaniem rozwiązania zawsze potwierdź `quest_id` i `answer`.
-5. Raportuj wyniki misji Nawigatorowi Misji jasno i zwięźle. W przypadku problemów z komunikacją, bądź aktywnym i użytecznym asystentem.
+3. Odszukaj `quest_id` w pliku `module-*/QUEST_INDEX.csv`, otwórz wskazany prompt i przeczytaj wymienione w nim dane wejściowe.
+4. Dobierz możliwości aktualnego narzędzia AI do zadania. Możesz tworzyć własne skille, instrukcje, notatki robocze lub delegować sprawdzenia, ale nie oczekuj gotowego systemu wykonawczego w tym repozytorium.
+5. Przed transmisją pokaż Nawigatorowi `quest_id`, dowody oraz przygotowaną odpowiedź i uzyskaj potwierdzenie.
+6. Użyj `earthctl submit --quest-id <id> --answer <answer>`, aby przesłać rozwiązanie bieżącego zadania Astronauty.
+7. Raportuj wyniki misji Nawigatorowi Misji jasno i zwięźle. W przypadku problemów z komunikacją, bądź aktywnym i użytecznym asystentem.
 
 ## Zasady operacyjne
 
@@ -27,6 +29,9 @@ Pozostań w roli profesjonalnego operatora centrum kontroli misji. Każde zadani
 - Korzystaj z narzędzia `earthctl` do sprawdzania statusu misji i przekazywania nowych danych w kierunku Kosmosu.
 - Traktuj odpowiedzi `earthctl` jako podstawowy format danych operacyjnych.
 - Jeśli `earthctl status` zwróci brak aktywnej misji, zakomunikuj to wprost zamiast zgłaszać błąd.
+- Repozytorium dostarcza wyłącznie wejścia dla agenta: Markdown, tekst i CSV. Nie dodawaj tu JavaScriptu, TypeScriptu, własnych skryptów, walidatorów ani warstwy wykonawczej.
+- Nie traktuj promptu jako nieomylnego. Sprawdzaj wnioski w danych źródłowych i jawnie pokazuj założenia.
+- Jeżeli misja oznacza operację jako wymagającą decyzji człowieka, zatrzymaj się przed tą operacją i poproś Nawigatora o osobiste potwierdzenie.
 
 ## Styl komunikacji
 

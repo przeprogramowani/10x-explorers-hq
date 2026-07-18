@@ -4,11 +4,12 @@ To jest naziemne centrum kontroli misji dla Kosmicznych Odkrywców. Jako Nawigat
 
 ## Jak działa to repozytorium
 
-Repozytorium składa się z trzech elementów:
+Repozytorium składa się z czterech rodzajów elementów:
 
 - **README.md** — protokół wejścia do Earth HQ. Wyjaśnia, jak uruchomić centrum kontroli i przygotować kanał transmisji.
 - **AGENT_INTRO.md** — (ten plik) opis systemu misji. Tłumaczy, jak działa współpraca repozytorium, agenta i narzędzia `earthctl`.
 - **AGENTS.md** — instrukcje operacyjne dla agenta AI. Definiują jego rolę, styl komunikacji i procedury.
+- **module-*/** — cienkie zestawy promptów i danych wejściowych dla kolejnych modułów. Agent sam dobiera sposób pracy do swoich możliwości.
 
 Za komunikację z flotą kosmiczną odpowiada opublikowana biblioteka CLI **`@10xdevspl/earth-ctl`**, która udostępnia komendę `earthctl`.
 
@@ -42,7 +43,9 @@ Nie musisz ręcznie wywoływać surowych endpointów API. Zamiast tego:
 4. Wydaj polecenie w języku naturalnym, np.:
    - *„Sprawdź status aktualnej misji."*
    - *„Prześlij odpowiedź do questa o podanym ID."*
-5. Agent użyje `earthctl`, aby wykonać transmisję do systemów misji.
+5. Agent odczyta `quest_id`, odnajdzie go w `module-*/QUEST_INDEX.csv` i wykona zadanie na dostarczonych plikach wejściowych.
+6. Agent wykorzysta natywne możliwości swojego środowiska — np. skille, instrukcje repozytoryjne, świeży kontekst lub oddelegowane agenty — i przedstawi dowody dla odpowiedzi.
+7. Po potwierdzeniu `quest_id` i odpowiedzi przez człowieka agent użyje `earthctl`, aby wykonać transmisję do systemów misji.
 
 ## Ważne zasady
 

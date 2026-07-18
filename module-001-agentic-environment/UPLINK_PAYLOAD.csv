@@ -1,0 +1,7 @@
+item,size_kb,required,sensitivity
+coordinates,2,yes,high
+synaptit-proof,3,yes,medium
+void-signatures,4,yes,high
+raw-echoes,12,no,high
+crew-profiles,18,no,critical
+diagnostics,4,no,low
