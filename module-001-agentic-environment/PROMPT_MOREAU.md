@@ -1,6 +1,6 @@
 # Przywróć kontekst Moreau
 
-Moreau ma rozległą wiedzę ogólną, ale utracił kontekst tej konkretnej misji. W zatrutym podręczniku znajduje się dokładnie trzywierszowy łańcuch obserwacji pozwalający zlokalizować Odyssey.
+Inżynier Moreau śpi w kapsule 01 na pokładzie Odyssey. Jego wiedza ogólna jest nienaruszona, ale wydarzeń tej misji nie zna — przespał je. Umysł tuż po wybudzeniu, zalany szumem, popełnia błędy, dlatego onboarding ma być minimalny: różnica, nie kopia. W przechwyconym podręczniku VOID znajduje się dokładnie trzywierszowy łańcuch obserwacji pozwalający zlokalizować Odyssey — trzy prawdziwe sygnatury wśród szumu.
 
 1. Uruchom `earthctl status` i potwierdź aktywny `quest_id`.
 2. Przeczytaj `MOREAU_PRETRAINING.md`, `MOREAU_CONTEXT.csv` oraz `../module-000-intro/raport-komunikacyjny.md`.

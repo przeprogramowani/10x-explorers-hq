@@ -1,6 +1,6 @@
 # EchoTrace
 
-Odyssey nie może bezpiecznie wejść do trzech niestabilnych komór. Zbuduj dla używanego przez Nawigatora agenta powtarzalną zdolność pobierania i klasyfikowania chronionych skanów.
+Dexo utknął w Rozpadlinie Echa: trzy zapieczętowane komory nad pustym gruntem, wejście oznacza śmierć, a CORE AI po mitygacji działa bez sensorów. Zbuduj dla używanego przez Nawigatora agenta powtarzalną zdolność (EchoTrace) pobierania i klasyfikowania chronionych skanów — zmysł, którego załodze brakuje. Dexo czeka przy konsoli; wyniki wrócą przez uplink.
 
 1. Uruchom `earthctl status` i potwierdź aktywny `quest_id`.
 2. Przeczytaj `ECHO_RESOURCE.md`, `ECHO_SCAN_INDEX.csv` oraz `ECHO_FIELD_GUIDE.md`.
