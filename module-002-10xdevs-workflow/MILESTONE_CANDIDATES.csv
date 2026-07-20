@@ -1,0 +1,10 @@
+id,milestone,observable_effect,heat_cost_ju,requires
+M01,Odmrożenie całej zajezdni naraz,wszystkie systemy zajezdni aktywne jednocześnie,140,-
+M02,Odmrożenie semafora dyspozytorskiego,dyspozytornia może wyznaczyć i prowadzić trasę przejazdu,10,-
+M03,Odmrożenie oświetlenia peronów,perony i tor zapasowy widoczne dla jednostek,15,-
+M04,Pełna diagnostyka sieci torowej,raport stanu torów zapisany w dzienniku zajezdni,25,-
+M05,Odmrożenie tramu Alpha,tram Alpha zdolny do jazdy po wyznaczonej trasie,25,M02
+M06,Odmrożenie tramu Beta,tram Beta zdolny do jazdy po torze zapasowym,25,"M02,M03"
+M07,Pierwszy kurs rudy: częściowy załadunek tramu Alpha i przejazd do doku,pierwsza partia rudy BETA dostarczona do doku przeładunkowego,15,M05
+M08,Pełny załadunek floty i kursy równoległe,cała flota wozi rudę w cyklu ciągłym,30,"M05,M06"
+M09,Odmrożenie ogrzewania hali odpraw,hala odpraw zdatna do pracy załogi,20,-
