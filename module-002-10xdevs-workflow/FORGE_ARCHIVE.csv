@@ -1,0 +1,13 @@
+block_code,signature,build_rev,status,takt_index,notes
+104,odyssey-build,F-11,zatwierdzony,10,rozruch sieci transportowej
+287,odyssey-build,F-11,zatwierdzony,20,zasilenie huty z galerii
+771,odyssey-build,F-11,zatwierdzony,30,odbiór i wysyłka pierwszego wytopu
+109,entropy-build,F-11,zatwierdzony,11,podpis spoza archiwum budowy
+114,odyssey-build,F-12,zatwierdzony,12,rewizja niewdrożona w fabryce
+132,odyssey-build,F-11,szkic,13,blok bez zatwierdzenia
+201,odyssey-field,F-11,zatwierdzony,21,podpis serwisowy zamiast budowlanego
+304,odyssey-build,F-10,zatwierdzony,22,rewizja przedwdrożeniowa
+445,odyssey-build,F-11,szkic,23,oczekuje na przegląd dyspozytora
+608,odyssey-test,F-11,zatwierdzony,31,podpis stanowiska testowego
+725,odyssey-build,F-12,zatwierdzony,32,rewizja nigdy niepobrana przez fabrykę
+890,odyssey-build,F-11,odrzucony,33,blok wycofany po próbie zimowej

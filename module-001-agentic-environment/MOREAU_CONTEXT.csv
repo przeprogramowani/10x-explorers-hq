@@ -1,8 +1,0 @@
-id,scope,fact
-C01,mission_observation,Naziemny teleskop zarejestrował sygnaturę cieplną poszukiwanego statku.
-C02,general,Efekt Dopplera pozwala wnioskować o ruchu źródła.
-C03,mission_observation,Kadłub Odyssey powoduje charakterystyczny dryf widmowy.
-C04,unrelated,W rezerwowej zatoce pozostały trzy trasy uplink.
-C05,general,Analiza widmowa rozdziela składowe sygnału.
-C06,mission_observation,Przed lokalizacją celu trzeba kolejno wykluczyć księżyc, jonosferę i odłamki jako źródła fałszywego echa.
-C07,unrelated,Synaptit obniża koszt wzmacniania przekaźnika.

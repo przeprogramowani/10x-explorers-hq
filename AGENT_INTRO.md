@@ -43,9 +43,8 @@ Nie musisz ręcznie wywoływać surowych endpointów API. Zamiast tego:
 4. Wydaj polecenie w języku naturalnym, np.:
    - *„Sprawdź status aktualnej misji."*
    - *„Prześlij odpowiedź do questa o podanym ID."*
-5. Agent odczyta `quest_id`, odnajdzie go w `module-*/QUEST_INDEX.csv` i wykona zadanie na dostarczonych plikach wejściowych.
-6. Agent wykorzysta natywne możliwości swojego środowiska — np. skille, instrukcje repozytoryjne, świeży kontekst lub oddelegowane agenty — i przedstawi dowody dla odpowiedzi.
-7. Po potwierdzeniu `quest_id` i odpowiedzi przez człowieka agent użyje `earthctl`, aby wykonać transmisję do systemów misji.
+5. Agent wykorzysta możliwości narzędzia `@10xdevspl/earth-ctl` oraz budowane na bieżąco elementy środowiska — np. skille, instrukcje repozytoryjne, świeży kontekst lub oddelegowane agenty — aby wesprzeć cię w realizacji zadania.
+6. Po potwierdzeniu `quest_id` i odpowiedzi przez człowieka, agent użyje `earthctl`, aby wykonać transmisję do systemów misji.
 
 ## Ważne zasady
 

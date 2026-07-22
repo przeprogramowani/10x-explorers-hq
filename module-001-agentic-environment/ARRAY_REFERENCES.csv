@@ -1,0 +1,11 @@
+ref_code,source,drift_ms,verified,band
+052,earth-hq,8,yes,S
+118,earth-hq,12,no,S
+274,void-relay,6,yes,C
+217,earth-hq,19,yes,C
+405,earth-hq,44,yes,X
+061,odyssey,15,yes,S
+333,earth-hq,52,no,X
+129,earth-hq,27,no,C
+390,earth-hq,33,yes,X
+488,void-relay,71,yes,X

@@ -1,0 +1,10 @@
+seq,channel,event,ref_code,detail
+1,uplink,SYNC,-,otwarcie sesji kalibracji tablicy
+2,earth-hq,QUERY,052,zapytanie o beacon odniesienia
+3,earth-hq,ACK,052,potwierdzenie odbioru
+4,earth-hq,QUERY,217,zapytanie o beacon odniesienia
+5,earth-hq,ACK,217,potwierdzenie odbioru
+6,earth-hq,ACK,217,potwierdzenie odbioru (DUPLIKAT — nieoczekiwane, poza kolejnością)
+7,earth-hq,QUERY,390,zapytanie o beacon odniesienia
+8,earth-hq,ACK,390,potwierdzenie odbioru
+9,uplink,CLOSE,-,zamknięcie sesji kalibracji

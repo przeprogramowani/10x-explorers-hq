@@ -1,0 +1,13 @@
+vector_code,signature,status,witness,seria_index,notes
+112,odyssey-cert,zatwierdzony,zgodny,10,wektor bazowy — dwa odczyty zgodne
+348,odyssey-cert,zatwierdzony,zgodny,20,wektor cieplny — dwa odczyty zgodne
+907,odyssey-cert,zatwierdzony,zgodny,30,wektor chłodzenia — dwa odczyty zgodne
+209,entropy-cert,zatwierdzony,zgodny,11,podpis spoza archiwum certyfikacji
+233,odyssey-cert,zatwierdzony,niezgodny,12,odczyt glowny zielony — drugi swiadek sie nie zgadza
+318,odyssey-cert,szkic,zgodny,21,wektor bez zatwierdzenia
+402,odyssey-field,zatwierdzony,zgodny,22,podpis polowy zamiast certyfikacyjnego
+511,odyssey-cert,zatwierdzony,brak,23,brak drugiego swiadka — jeden zielony to za malo
+640,odyssey-cert-r2,zatwierdzony,zgodny,24,rewizja certyfikatu nigdy nierozdystrybuowana
+755,odyssey-cert,odrzucony,zgodny,31,wektor wycofany po probie
+826,odyssey-test,zatwierdzony,zgodny,32,podpis stanowiska testowego
+188,odyssey-cert,szkic,zgodny,14,wektor roboczy — oczekuje na zatwierdzenie

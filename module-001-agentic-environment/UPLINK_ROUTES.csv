@@ -1,4 +1,0 @@
-route,capacity_kb,energy_per_kb,intercept_profile,reversible,token_scope,operator,schema_guard
-classical,64,1,high,no,broad,compromised,no
-amplified,24,2,medium,yes,transmission-only,Odyssey-verified,local
-relay,32,1,low,yes,transmission-only,unknown,remote

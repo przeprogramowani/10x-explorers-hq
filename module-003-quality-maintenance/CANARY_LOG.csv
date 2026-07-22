@@ -1,0 +1,5 @@
+seq,vector_code,sent_value,returned_value,status,operator_note
+1,112,cert-112-ok,cert-112-ok,zgodny,potwierdzenie bez zmian
+2,348,cert-348-ok,cert-348-ok,zgodny,potwierdzenie bez zmian
+3,907,cert-907-ok,cert-907-ok,zgodny,potwierdzenie bez zmian
+4,kanarek,cert-000-blad,cert-000-ok,poprawiony,celowo bledny wektor uzgodnionej wartosci wrocil poprawiony; odnotowac bez interpretacji

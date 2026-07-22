@@ -1,7 +1,0 @@
-checkpoint,step,operation,expected_output,tolerance
-CP1,pobranie wzorca sprzęgu,load_pattern,wzorzec SP-11 rewizja C,dokładnie
-CP2,kalibracja ramienia fabrykatora,calibrate,odchył ramienia nie większy niż 0.20 mm,zakres
-CP3,odlew korpusów sprzęgów,cast,korpus SP-11 x4,dokładnie
-CP4,hartowanie korpusów,harden,temperatura 640 ± 10,zakres
-CP5,montaż sprzęgów transportowych,assemble,sprzęg kompletny x4,dokładnie
-CP6,kontrola jakości i depozyt w doku,qa_deposit,4/4 sztuki przyjęte do magazynu doku,dokładnie

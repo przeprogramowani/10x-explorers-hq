@@ -1,0 +1,4 @@
+seq,takt_index,block_code,sent_checksum,returned_checksum,status,operator_note
+1,10,104,8c4a-11f0,8c4a-11f0,zgodny,potwierdzenie bez zmian
+2,20,287,6d91-22b7,6d91-22b7,zgodny,potwierdzenie bez zmian
+3,30,771,a77e-30c1,a77e-30c2,niezgodny,zwrot różni się o jeden blok; odnotować bez interpretacji

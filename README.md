@@ -72,8 +72,6 @@ Szczegóły systemu opisane są w [`AGENT_INTRO.md`](./AGENT_INTRO.md).
 
 Instrukcje operacyjne agenta — w [`AGENTS.md`](./AGENTS.md).
 
-Prompty i dane wejściowe Modułu 1 — w [`module-001-agentic-environment/QUEST_INDEX.csv`](./module-001-agentic-environment/QUEST_INDEX.csv).
-
 ```
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 ▀▀▀▀▀▀▀▀▀▀▀ CENTRUM KONTROLI CZUWA ▀▀▀▀▀▀▀▀▀▀▀▀▀▀

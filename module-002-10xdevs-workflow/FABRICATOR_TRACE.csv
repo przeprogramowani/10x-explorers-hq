@@ -1,8 +1,0 @@
-seq,checkpoint,operation,recorded_output,cp5_stamp
-1,CP1,load_pattern,wzorzec SP-11 rewizja C,OK
-2,CP2,calibrate,odchył ramienia 0.19 mm,OK
-3,CP3,cast,korpus SP-11 x4,OK
-4,-,polish_decorative,korpusy wypolerowane ozdobnie wzorem VOID,BRAK STEMPLA
-5,CP4,harden,temperatura 643,OK
-6,CP5,assemble,sprzęg kompletny x4,OK
-7,CP6,qa_deposit,4/4 sztuki przyjęte do magazynu doku,OK
