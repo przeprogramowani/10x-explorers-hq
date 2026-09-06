@@ -1,0 +1,6 @@
+id,corridorId,releaseId,issuerId,baitId,committed,window
+intercept-1,mirror,rel-204,voss,bait-17,true,"[105,115]"
+intercept-2,prism,rel-204,voss,bait-17,true,"[105,115]"
+intercept-3,haze,rel-204,voss,bait-17,true,"[105,115]"
+intercept-4,osprey,rel-204,voss,null,true,"[105,115]"
+intercept-5,kestrel,rel-204,voss,null,true,"[120,130]"

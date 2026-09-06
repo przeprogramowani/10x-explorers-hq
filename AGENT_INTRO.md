@@ -58,3 +58,16 @@ Nie musisz ręcznie wywoływać surowych endpointów API. Zamiast tego:
 ---
 
 Centrum kontroli czuwa. Powodzenia na orbicie.
+
+## M4/M5 — indeks nowych pakietów / new packet index
+
+| Quest | Polski | English | Tryb / Mode |
+| --- | --- | --- | --- |
+| `q-m4-context-pack` | [Pakiet kontekstu](module-004-context-architecture/m4-context-pack/PROMPT.pl.md) | [Context Pack](module-004-context-architecture/m4-context-pack/PROMPT.en.md) | Opcjonalny po pamięci M4 / Optional after M4 memory |
+| `q-m4-change-impact` | [Zasięg zmiany](module-004-context-architecture/m4-change-impact/PROMPT.pl.md) | [Change Impact](module-004-context-architecture/m4-change-impact/PROMPT.en.md) | Opcjonalny po pamięci M4 / Optional after M4 memory |
+| `q-m5-return-window` | [Okno powrotu](module-005-agent-coordination/m5-return-window/PROMPT.pl.md) | [Return Window](module-005-agent-coordination/m5-return-window/PROMPT.en.md) | Główna misja aktywowana w grze / Main mission activated in game |
+| `q-m5-handoff-audit` | [Audyt przekazania](module-005-agent-coordination/m5-handoff-audit/PROMPT.pl.md) | [Handoff Audit](module-005-agent-coordination/m5-handoff-audit/PROMPT.en.md) | Opcjonalny po łączności M5 / Optional after M5 communications |
+
+Misje opcjonalne używają jawnego `quest_id`; nie trzeba ich aktywować ani zastępować głównego zadania. `earthctl status` nadal opisuje główną misję. Każda opcjonalna analiza daje 0 XP i osobny znacznik ukończenia, bez wpływu na drogę, rdzenie i finał. Pracuj stopniowo z Nawigatorem; przed każdym rzeczywistym `earthctl submit` pokaż dowody i przygotowaną odpowiedź oraz uzyskaj jawne potwierdzenie. Token pozostaje poza repozytorium.
+
+Optional investigations use an explicit `quest_id`; do not activate them or replace the main assignment. `earthctl status` still describes the main mission. Each optional investigation awards 0 XP and a separate completion stamp, with no effect on travel, cores or the finale. Proceed step by step with the Navigator; before any real `earthctl submit`, show the evidence and prepared answer and obtain explicit approval. Keep tokens outside the repository.

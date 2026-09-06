@@ -1,0 +1,7 @@
+key,jsonValue
+schemaVersion,1
+missionId,"""m5-return-window"""
+timeUnit,"""mission-minute"""
+intervalConvention,"""[start,end)"""
+cargoUnits,10
+baitId,"""bait-17"""

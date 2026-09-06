@@ -1,0 +1,17 @@
+documentId,claimId,verified
+d01,c01,true
+d02,c02,true
+d03,c03,true
+d03,c04,true
+d04,c01,true
+d04,c02,true
+d04,c03,true
+d04,c04,true
+d05,c01,true
+d06,c01,true
+d06,c02,true
+d06,c03,true
+d06,c04,true
+d07,c03,true
+d08,c04,true
+d09,c02,false

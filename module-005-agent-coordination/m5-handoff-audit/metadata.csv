@@ -1,0 +1,4 @@
+key,value
+schemaVersion,1
+ordering,central-ledger-seq
+clockPolicy,actorTime-is-not-comparable

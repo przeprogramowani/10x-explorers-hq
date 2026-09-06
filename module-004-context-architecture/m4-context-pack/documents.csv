@@ -1,0 +1,10 @@
+id,revision,units,authority,label
+d01,4,2,verified,Root instruction map
+d02,4,3,verified,Dependency field notes
+d03,4,3,verified,Identity and receiver trace
+d04,4,9,verified,Complete reviewed archive
+d05,3,1,verified,Earlier root guide
+d06,4,1,draft,Unreviewed global summary
+d07,4,2,verified,Identity boundary
+d08,4,3,verified,Receiver protocol
+d09,4,2,verified,Compact dependency sketch

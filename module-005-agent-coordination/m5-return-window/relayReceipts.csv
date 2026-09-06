@@ -1,0 +1,15 @@
+id,kind,corridorId,revision,releaseId,witnessId,trusted,time,recordId,issuerId
+ack-kestrel-1,corridor,kestrel,4,rel-204,observatory-a,true,80,,
+ack-kestrel-2,corridor,kestrel,4,rel-204,observatory-b,true,81,,
+ack-swift-1,corridor,swift,9,rel-209,observatory-a,true,80,,
+ack-swift-2,corridor,swift,9,rel-209,observatory-b,true,81,,
+ack-heron-1,corridor,heron,4,rel-204,observatory-a,true,80,,
+ack-heron-2,corridor,heron,4,rel-204,observatory-a,true,81,,
+ack-tern-1,corridor,tern,4,rel-204,observatory-a,true,80,,
+ack-tern-2,corridor,tern,4,rel-204,observatory-b,true,81,,
+ack-osprey-1,corridor,osprey,4,rel-204,observatory-a,true,80,,
+ack-osprey-2,corridor,osprey,4,rel-204,observatory-b,true,81,,
+r077-release,release,,,rel-204,release-desk,true,72,R-077,voss
+custody-204,custody,,,rel-204,earth-audit,true,74,,voss
+old-signature,custody,,,rel-031,earth-audit,true,24,,voss-archive
+survey-authorship,custody,,,rel-088,survey-office,true,32,,kern

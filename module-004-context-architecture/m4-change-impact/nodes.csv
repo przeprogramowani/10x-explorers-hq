@@ -1,0 +1,6 @@
+id,displayLabel,kind
+n01,Batch ordering,internal
+n02,Delivery,serializer
+n03,Outbox,queue
+n04,Receipt,worker
+n05,Delivery,label-renderer

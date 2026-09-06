@@ -1,0 +1,9 @@
+id,cost,status,kind,contractIds
+t01,3,verified,characterization,c01|c02
+t02,2,verified,characterization,c03
+t03,2,verified,characterization,c01
+t04,2,verified,characterization,c02
+t05,1,verified,label-snapshot,c01|c02|c03
+t06,1,draft,characterization,c01|c02|c03
+t07,4,verified,characterization,c01|c03
+t08,1,verified,characterization,c04

@@ -1,0 +1,9 @@
+id,revision,releaseId,cargoCertified,capacity,empty,route,privateRelays,flight
+kestrel,4,rel-204,true,12,false,"[""private""]","[""quiet-7""]","[100,120]"
+swift,9,rel-209,true,12,false,"[""private""]","[""quiet-7""]","[100,120]"
+heron,4,rel-204,true,12,false,"[""private""]","[""quiet-7""]","[100,120]"
+tern,4,rel-204,true,7,false,"[""private""]","[""quiet-7""]","[100,120]"
+osprey,4,rel-204,true,12,false,"[""private""]","[""quiet-7""]","[100,120]"
+mirror,2,rel-204,false,0,true,"[""monitored-public""]",[],"[100,120]"
+prism,2,rel-204,false,0,true,"[""monitored-public""]","[""quiet-7""]","[100,120]"
+haze,2,rel-204,false,0,true,"[""monitored-public""]",[],"[130,140]"

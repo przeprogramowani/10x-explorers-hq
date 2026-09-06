@@ -1,0 +1,13 @@
+id,seq,jobId,artifactId,revision,kind,witnessId,trusted,actorTime
+r01,45,j01,a12,2,received,delta,true,17
+r02,48,j01,a12,2,reviewed,nova,true,3
+r03,65,j02,a21,1,received,delta,true,999
+r04,68,j02,a21,1,reviewed,nova,true,1001
+r05,32,j03,a31,1,received,delta,true,50
+r06,35,j03,a31,1,reviewed,oren,true,70
+r07,33,j04,a41,1,received,delta,true,100
+r08,36,j04,a41,1,received,delta,true,101
+r09,34,j05,a51,1,sent,quinn,true,2000
+r10,37,j05,a51,1,reviewed,nova,true,2001
+r11,85,j06,a61,1,received,delta,true,1
+r12,88,j06,a61,1,reviewed,nova,true,2

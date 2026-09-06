@@ -1,0 +1,5 @@
+id,required,meaning
+c01,true,Instruction ownership
+c02,true,Dependency direction
+c03,true,Durable identity
+c04,true,Asynchronous acknowledgement

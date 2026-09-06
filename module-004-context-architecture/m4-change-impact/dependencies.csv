@@ -1,0 +1,4 @@
+consumerId,dependencyId,transport
+n02,n01,sync
+n03,n01,async
+n04,n03,async

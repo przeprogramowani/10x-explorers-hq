@@ -1,0 +1,5 @@
+id,nodeId,displayLabel,invariant
+c01,n02,Delivery,durable IDs survive reordering
+c02,n03,Outbox,committed order reaches the queue
+c03,n04,Receipt,duplicate acknowledgements remain idempotent
+c04,n05,Delivery,display labels may be renamed
